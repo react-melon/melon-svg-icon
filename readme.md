@@ -62,7 +62,7 @@ All the icons size are very large, so you had better only import those icons you
 
 ### Meta
 
-We supplies a `icons.json` which lists all the icon names.
+We provide a `icons.json` which lists all the icon names.
 
 ### Develop
 
