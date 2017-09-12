@@ -1,0 +1,47 @@
+.main {
+    flex: 0 0 10%;
+    max-width: 10%;
+    display: flex;
+    height: 5rem;
+    padding: 1rem 0;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 3px;
+    transition: background-color .3s ease-in-out, box-shadow .3s ease-in-out;
+    cursor: pointer;
+}
+
+.main:hover {
+    background-color: #eee;
+    box-shadow: rgba(0, 0, 0, .3) 0 0 3px
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: center
+}
+
+.icon {
+    transition: all .3s ease-in-out;
+    fill: #333
+}
+
+.main:hover .icon {
+    transform: scale(1.2, 1.2);
+    fill: #009F93
+}
+
+.main:hover .label {
+    color: #009F93
+}
+
+.label {
+    margin: 1rem 0 0;
+    font-size: 12px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0 .5rem;
+    transition: all .3s ease-in-out;
+}
