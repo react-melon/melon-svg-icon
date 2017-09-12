@@ -1,6 +1,6 @@
 {
     "name": "melon-svg-icon",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Material Design SVG icon components for React",
     "main": "lib/index.js",
     "scripts": {
