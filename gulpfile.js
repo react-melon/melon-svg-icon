@@ -70,4 +70,6 @@ gulp.task('babel', ['index'], () => (
 
 gulp.task('icons', ['index'], () => gulp.src('components/icons.json').pipe(gulp.dest('lib')));
 
-gulp.task('default', ['babel', 'icons']);
+gulp.task('pkg', () => gulp.src('package.json').pipe(gulp.dest('lib')));
+
+gulp.task('default', ['babel', 'icons', 'pkg']);
