@@ -4,7 +4,7 @@ This package provides the [Google Material Icons](https://material.io/icons/) pa
 
 ### Demo
 
-please check out the [demo](https://melon-svg-icon.surge.sh/)
+please check out the [demo](https://melon-svg-icon.surge.sh/#All_Icons)
 
 ### Installation
 
@@ -76,4 +76,4 @@ We supplies a `icons.json` which lists all the icon names.
 
 ---
 
-See all the icon, please check out the [demo](https://melon-svg-icon.surge.sh/)
+See all the icon, please check out the [demo](https://melon-svg-icon.surge.sh/#All_Icons)
