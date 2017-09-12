@@ -44,6 +44,13 @@ module.exports = function (options = {}) {
 
         svgtojsx(file.contents.toString(), rest, (error, result) => {
 
+            if (error) {
+                callback(error, null);
+                return;
+            }
+
+            result = result.replace(/fill="([^"]+)"/g, '');
+
             if (template) {
                 result = template(file.path, result);
             }

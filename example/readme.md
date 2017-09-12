@@ -2,10 +2,6 @@
 
 This package provides the [Google Material Icons](https://material.io/icons/) packaged as a set of React Components.
 
-### Demo
-
-please check out the [demo](https://melon-svg-icon.surge.sh/)
-
 ### Installation
 
 Install the pacakge in ypur project directory with:
@@ -75,5 +71,3 @@ We supplies a `icons.json` which lists all the icon names.
 ### All Icons
 
 ---
-
-See all the icon, please check out the [demo](https://melon-svg-icon.surge.sh/)

@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 import * as icons from 'melon-svg-icon';
 import Icon from './Icon';
 import SnackBar from 'react-material-snackbar';
-import Readme from '../readme.md';
+import Readme from './readme.md';
 import styles from './App.css';
 
 import 'normalize.css/normalize.css';
